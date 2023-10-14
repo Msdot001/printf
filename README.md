@@ -3,13 +3,13 @@
 This is the README for the "Printf Function" project, a team project undertaken by students at ALX School of Software Engineering as part of their academic learning journey.
 
 ### Table of Contents
-Introduction
-Project Overview
-Team Members
-Project Structure
-How to Use
-Contributing
-License
+* Introduction
+* Project Overview
+* Team Members
+* Project Structure
+* How to Use
+* Contributing
+* License
 
 ### Introduction
 This project is part of the curriculum at ALX School of Software Engineering (ALX-SE). It aims to implement a simplified version of the printf function in C. The printf function is commonly used for formatted output in C programs, and this project provides an opportunity for students to understand its inner workings and practice their C programming skills.
@@ -36,17 +36,11 @@ To use the printf function implemented in this project, follow these steps:
 
 Clone the repository to your local machine:
 
-bash
+/bash
 Copy code
 git clone https://github.com/yourusername/printf-function.git
-Build the project:
 
-go
-Copy code
-make
-Run the sample program:
-
-bash
+/bash
 Copy code
 ./printf-test
 
