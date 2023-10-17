@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * print_char - Prints a character to stdout.
- * @c: The character to print
- * Return: The number of characters printed
- */
+* print_char - Prints a character to stdout.
+* @c: The character to print
+* Return: The number of characters printed
+*/
 
 int print_char(int c)
 {
@@ -13,10 +13,10 @@ int print_char(int c)
 
 
 /**
- * print_str - Prints a string to stdout.
- * @str: The string to print
- * Return: The number of characters printed.
- */
+* print_str - Prints a string to stdout.
+* @str: The string to print
+* Return: The number of characters printed.
+*/
 
 int print_str(char *str)
 {
@@ -34,11 +34,11 @@ int print_str(char *str)
 
 
 /**
- * print_format - Handles different format specifiers.
- * @specifier: The format specifier character.
- * @ap: The va_list containing the arguments.
- * Return: The number of characters printed.
- */
+* print_format - Handles different format specifiers.
+* @specifier: The format specifier character.
+* @ap: The va_list containing the arguments.
+* Return: The number of characters printed.
+*/
 
 int print_format(char specifier, va_list ap)
 {
@@ -59,14 +59,14 @@ int print_format(char specifier, va_list ap)
 
 
 /**
- * _printf - mimicing printf from standard stdio 
- * Description: produces output according to a format
- * write output to stdout
- * @format: character string composed of 0 or more directives
- * Return: the number of characters printed
- * (excluding the null byte used to end output to strings)
- * Return -1 for incomplete identifier error
- */
+* _printf - mimicing printf from standard stdio
+* Description: produces output according to a format
+* write output to stdout
+* @format: character string composed of 0 or more directives
+* Return: the number of characters printed
+* (excluding the null byte used to end output to strings)
+* Return -1 for incomplete identifier error
+*/
 
 int _printf(const char *format, ...)
 {
