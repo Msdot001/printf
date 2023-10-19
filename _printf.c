@@ -12,7 +12,8 @@
  */
 int printIdentifiers(char next, va_list arg)
 {
-	int functsIndex;
+	int functsIndex = 0;
+
 	identifierStruct functs[] = {
 		{"c", print_char},
 		{"s", print_str},
