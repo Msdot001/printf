@@ -22,6 +22,7 @@ This project was developed by a team of two students as part of their academic c
 
 [Moshood Owolabi] - GitHub: GitHub Profile
 [Aderemi Aladeokin] - GitHub:GitHub Profile
+[Houda Abdellaoui] - GitHub:GitHub Profile
 
 ### Project Structure
 The project is organized as follows:
