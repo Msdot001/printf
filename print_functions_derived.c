@@ -50,7 +50,7 @@ int print_oct(va_list arg)
                 num = num / 8;
         }
 
-        
+
         for (i = 0; i < j && octa[i] == '0'; i++)
                 ;
         for (; i < j; i++)
