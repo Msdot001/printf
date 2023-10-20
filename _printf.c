@@ -4,12 +4,12 @@
 #include <stdlib.h>
 #include <stdio.h>
 /**
- * printIdentifiers - prints special characters
- * @next: character after the %
- * @arg: argument for the indentifier
- * Return: the number of characters printed
- * (excluding the null byte used to end output to strings)
- */
+* printIdentifiers - prints special characters
+* @next: character after the %
+* @arg: argument for the indentifier
+* Return: the number of characters printed
+* (excluding the null byte used to end output to strings)
+*/
 int printIdentifiers(char next, va_list arg)
 {
 	int functsIndex = 0;
@@ -36,14 +36,14 @@ int printIdentifiers(char next, va_list arg)
 	return (0);
 }
 /**
- * _printf - mimic printf from stdio
- * Description: produces output according to a format
- * write output to stdout, the standard output stream
- * @format: character string composed of zero or more directives
- * Return: the number of characters printed
- * (excluding the null byte used to end output to strings)
- * return -1 for incomplete identifier error
- */
+* _printf - mimic printf from stdio
+* Description: produces output according to a format
+* write output to stdout, the standard output stream
+* @format: character string composed of zero or more directives
+* Return: the number of characters printed
+* (excluding the null byte used to end output to strings)
+* return -1 for incomplete identifier error
+*/
 
 int _printf(const char *format, ...)
 {
